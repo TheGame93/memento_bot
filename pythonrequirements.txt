@@ -1,0 +1,13 @@
+python-telegram-bot --pre
+APScheduler
+python-dotenv
+psutil
+pytz
+python-dateutil
+rapidfuzz
+timezonefinder
+pandas
+streamlit
+plotly
+kaleido
+matplotlib

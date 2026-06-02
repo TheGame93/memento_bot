@@ -1,0 +1,1358 @@
+[
+  {
+    "id": "cringe_001",
+    "text": "Buon compleanno super collega! Oggi attivi la modalita leggenda e il tuo calendario dice solo vittorie.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_002",
+    "text": "Auguri boss vibes! Che ogni riunione si trasformi in standing ovation e KPI in festa.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 30,
+    "age_max": null,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 3
+  },
+  {
+    "id": "cringe_003",
+    "text": "Buon compleanno! Energia da protagonista, caffe infinito e obiettivi spaccati con stile galattico.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 60,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_004",
+    "text": "Auguroni! Che il tuo pc voli, le mail siano gentili e i risultati facciano boom.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 65,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_005",
+    "text": "Buon compleanno! Sei in full power mode: productivity level epico e drama level zero.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_006",
+    "text": "Auguri! Che questa nuova season lavorativa ti porti upgrade, glow up e successi cinematici.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 30,
+    "age_max": null,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 3
+  },
+  {
+    "id": "cringe_007",
+    "text": "Buon compleanno! Oggi il team ti mette in highlight e il destino mette like a tutto.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 60,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_008",
+    "text": "Auguroni collega premium! Che ogni deadline arrivi morbida e tu la chiuda con classe.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 65,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_009",
+    "text": "Buon compleanno! Ti meriti una giornata no stress, full focus e applausi in surround.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_010",
+    "text": "Auguri boss energy! Che il tuo anno sia un mix perfetto di controllo, fortuna e plot twist belli.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 30,
+    "age_max": null,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 3
+  },
+  {
+    "id": "cringe_011",
+    "text": "Buon compleanno! Versione 2.0 sbloccata: piu impatto, piu soddisfazioni, meno caos.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 60,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_012",
+    "text": "Auguroni! Che ogni progetto ti regali scene madri e finali da standing ovation.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 65,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_013",
+    "text": "Buon compleanno bestie! Oggi sei main character e il mondo deve solo adeguarsi.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_014",
+    "text": "Auguri! Vibe altissime, zero negativita e playlist della felicita in loop.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_015",
+    "text": "Buon compleanno! Ti mando glitter metaforici, energia buona e una valanga di sorrisi.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "brother"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_016",
+    "text": "Auguroni! Che questa giornata sia iconica, fotogenica e piena di momenti wow.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 16,
+    "age_max": 35,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_017",
+    "text": "Buon compleanno! Amicizia nostra top tier: meme, supporto e cuore sempre online.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_018",
+    "text": "Auguri! Che ogni desiderio faccia speedrun verso il traguardo.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_019",
+    "text": "Buon compleanno! Oggi niente pensieri brutti: solo risate, abbracci e caffe tattico.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "brother"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_020",
+    "text": "Auguroni! Che il tuo anno sia una serie bella, senza filler e con finale perfetto.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 16,
+    "age_max": 35,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_021",
+    "text": "Buon compleanno! Ti meriti fortuna a pioggia e giornate che sanno di vacanza.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_022",
+    "text": "Auguri super star! Che il tuo mood resti luminoso anche nei lunedi piu random.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_023",
+    "text": "Buon compleanno! Cuore gigante, stile unico e vibes che migliorano la stanza.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "brother"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_024",
+    "text": "Auguroni! Che tu collezioni ricordi stupendi e screenshot mentali da tenere per sempre.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 16,
+    "age_max": 35,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_025",
+    "text": "Buon compleanno! In famiglia sei energia pura: oggi festa grande e coccole in abbondanza.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "mom"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_026",
+    "text": "Auguri! Che casa tua sia piena di risate, profumo buono e pace vera.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "dad"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_027",
+    "text": "Buon compleanno! Ti auguro giorni teneri, supporto totale e sogni in decollo.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": 12,
+    "age_max": 40,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_028",
+    "text": "Auguroni! Modalita famiglia attiva: amore, caos bello e felicita condivisa.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": 12,
+    "age_max": 40,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "brother"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_029",
+    "text": "Buon compleanno! Crescita level up, curiosita accesa e avventure sane in arrivo.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": 1,
+    "age_max": 21,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "child"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_030",
+    "text": "Auguri! Che il tuo cuore resti leggero e la tua casa sempre piena di affetto.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "mom"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_031",
+    "text": "Buon compleanno! Ti mando una combo di salute, serenita e fortuna extra.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "dad"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_032",
+    "text": "Auguroni! Che ogni mese ti porti una sorpresa bella da raccontare a tavola.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": 12,
+    "age_max": 40,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_033",
+    "text": "Buon compleanno amore! Tu sei il mio posto preferito: oggi solo cuori e romantic mode ON.",
+    "tag_groups": [
+      "love"
+    ],
+    "age_min": 18,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "partner"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_034",
+    "text": "Auguri amore mio! Con te tutto ha piu colore, piu senso e piu magia.",
+    "tag_groups": [
+      "love"
+    ],
+    "age_min": 18,
+    "age_max": 55,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "partner"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_035",
+    "text": "Buon compleanno tesoro! Siamo una coppia da cinema: dolcezza, risate e finale felice.",
+    "tag_groups": [
+      "love"
+    ],
+    "age_min": 18,
+    "age_max": 55,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "partner"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_036",
+    "text": "Auguroni amore! Ti scelgo ancora, sempre, con lo stesso batticuore.",
+    "tag_groups": [
+      "love"
+    ],
+    "age_min": 18,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "partner"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_037",
+    "text": "Buon compleanno pelosetto superstar! Snack premium, coccole infinite e zoomies senza limiti.",
+    "tag_groups": [
+      "pet"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "pet"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_038",
+    "text": "Auguri alla tua auto iconica! Carburante, playlist giusta e viaggi da film.",
+    "tag_groups": [
+      "car"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "car"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_039",
+    "text": "Buon compleanno! Che oggi sia soft, brillante e pieno di piccoli miracoli quotidiani.",
+    "tag_groups": [
+      "others"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_040",
+    "text": "Auguroni! Nuovo anno, nuova aura: piu luce, piu fortuna e zero energie tossiche.",
+    "tag_groups": [
+      "others"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_041",
+    "text": "Buon compleanno! Oggi modalita protagonista totale: vibes alte e successo in full HD.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_042",
+    "text": "Auguroni iconici! Che il tuo anno sia un mega upgrade con zero bug emotivi.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 30,
+    "age_max": null,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 3
+  },
+  {
+    "id": "cringe_043",
+    "text": "Buon compleanno! Energia stellare, aura luminosa e giorni pieni di wow moment.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 60,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_044",
+    "text": "Auguri! Che il destino ti mandi solo notifiche positive e sorprese premium.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 65,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_045",
+    "text": "Buon compleanno! Versione deluxe attivata: piu fortuna, piu glow, piu sorrisi.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_046",
+    "text": "Auguroni! Oggi sei trending topic nel cuore di chi ti vuole bene.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 30,
+    "age_max": null,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 3
+  },
+  {
+    "id": "cringe_047",
+    "text": "Buon compleanno! Che ogni tua idea faccia scintille e atterri in zona capolavoro.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 60,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_048",
+    "text": "Auguri super! Ti mando un boost di felicita con effetto immediato.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 65,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_049",
+    "text": "Buon compleanno! Che la tua playlist interiore resti sempre in modalita festa.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_050",
+    "text": "Auguroni! Nuova season, nuovo livello: tu sempre piu icon e sempre meno drama.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 30,
+    "age_max": null,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 3
+  },
+  {
+    "id": "cringe_051",
+    "text": "Buon compleanno! Che l universo ti risponda con un enorme SI a tutto il bene che vuoi.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 60,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_052",
+    "text": "Auguri! Oggi solo energia glitter, risate forti e abbracci extra large.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 65,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_053",
+    "text": "Buon compleanno bestie! Sei contenuto premium: simpatia, cuore e caos bello.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_054",
+    "text": "Auguroni! Che la tua giornata abbia filtro perfetto e luce da golden hour.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_055",
+    "text": "Buon compleanno! Ti auguro una valanga di momenti cute da ricordare per sempre.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "brother"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_056",
+    "text": "Auguri! Zero pesi, mille sorrisi e una dose epica di fortuna.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 16,
+    "age_max": 35,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_057",
+    "text": "Buon compleanno! La tua presenza alza il livello di qualsiasi stanza, facts only.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_058",
+    "text": "Auguroni! Che questa giornata sia una combo di coccole, risate e plot twist belli.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_059",
+    "text": "Buon compleanno! Mood: felice, centrato e spettacolare.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "brother"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_060",
+    "text": "Auguri! Ti mando un pacco regalo invisibile pieno di energia buona.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 16,
+    "age_max": 35,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_061",
+    "text": "Buon compleanno! Che ogni settimana di quest anno abbia almeno un momento da cinema.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_062",
+    "text": "Auguroni! Oggi la tua missione e una sola: brillare senza sensi di colpa.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_063",
+    "text": "Buon compleanno! Ti auguro giornate smooth, cuore pieno e sogni in alta velocita.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "brother"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_064",
+    "text": "Auguri supernova! Che il tuo sorriso resti sempre il tuo superpotere.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 16,
+    "age_max": 35,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_065",
+    "text": "Buon compleanno! In famiglia sei spark puro: tenerezza, risate e amore a valanga.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "mom"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_066",
+    "text": "Auguroni! Casa tua oggi e ufficialmente zona festa con emozioni positive illimitate.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "dad"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_067",
+    "text": "Buon compleanno! Ti auguro una stagione piena di affetto e micro miracoli quotidiani.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": 12,
+    "age_max": 40,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_068",
+    "text": "Auguri! Che ogni abbraccio valga triplo e ogni pensiero brutto perda segnale.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": 12,
+    "age_max": 40,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "brother"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_069",
+    "text": "Buon compleanno! Cresci forte, dolce e luminoso: proprio come una stella buona.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": 1,
+    "age_max": 21,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "child"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_070",
+    "text": "Auguroni! Che la tua tribu resti unita e pronta a festeggiarti sempre.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "mom"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_071",
+    "text": "Buon compleanno! Ti mando una carica di gioia con batteria eterna.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "dad"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_072",
+    "text": "Auguri! Nuovo anno, stessa anima bella, potenza raddoppiata.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": 12,
+    "age_max": 40,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_073",
+    "text": "Buon compleanno amore! Tu sei la mia comfort zone con effetto farfalle.",
+    "tag_groups": [
+      "love"
+    ],
+    "age_min": 18,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "partner"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_074",
+    "text": "Auguri amore mio! Con te tutto e piu bello, anche i giorni normali.",
+    "tag_groups": [
+      "love"
+    ],
+    "age_min": 18,
+    "age_max": 55,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "partner"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_075",
+    "text": "Buon compleanno tesoro! Love mode attiva, romantic level massimo.",
+    "tag_groups": [
+      "love"
+    ],
+    "age_min": 18,
+    "age_max": 55,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "partner"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_076",
+    "text": "Auguroni amore! Ti scelgo in repeat, senza skip e senza dubbi.",
+    "tag_groups": [
+      "love"
+    ],
+    "age_min": 18,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "partner"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "cringe_077",
+    "text": "Buon compleanno pelosetto legend! Oggi solo snack top e coccole full time.",
+    "tag_groups": [
+      "pet"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "pet"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_078",
+    "text": "Auguri alla tua auto queen! Che faccia purr purr perfetto e chilometri felici.",
+    "tag_groups": [
+      "car"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "car"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_079",
+    "text": "Buon compleanno! Che il tuo anno sia pulito, brillante e pieno di belle coincidenze.",
+    "tag_groups": [
+      "others"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "cringe_080",
+    "text": "Auguroni finali! Che la tua aura resti high e la tua felicita ancora piu high.",
+    "tag_groups": [
+      "others"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic"
+    ],
+    "weight": 1
+  }
+]

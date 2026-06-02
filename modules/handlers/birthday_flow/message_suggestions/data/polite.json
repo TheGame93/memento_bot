@@ -1,0 +1,1358 @@
+[
+  {
+    "id": "polite_001",
+    "text": "Buon compleanno! Ti auguro un anno di soddisfazioni professionali, serenita quotidiana e risultati costruiti con equilibrio.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_002",
+    "text": "Buon compleanno! Che il tuo modo di guidare con calma e chiarezza continui a fare la differenza in ogni progetto.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 30,
+    "age_max": null,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 3
+  },
+  {
+    "id": "polite_003",
+    "text": "Buon compleanno! Ti auguro giornate di lavoro piene di fiducia, obiettivi raggiunti e nuove opportunita ben meritate.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 60,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_004",
+    "text": "Buon compleanno! Che questo nuovo anno porti crescita concreta, collaborazioni solide e la giusta dose di leggerezza.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 65,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_005",
+    "text": "Buon compleanno! Grazie per la cura e l affidabilita che metti ogni giorno: ti auguro un anno ricco di traguardi.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_006",
+    "text": "Buon compleanno! Ti auguro decisioni fortunate, team unito e tante soddisfazioni personali oltre a quelle professionali.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 30,
+    "age_max": null,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 3
+  },
+  {
+    "id": "polite_007",
+    "text": "Buon compleanno! Che la tua competenza continui a essere un punto di riferimento e che arrivino nuove belle conquiste.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 60,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_008",
+    "text": "Buon compleanno! Ti auguro progetti stimolanti, tempi sostenibili e risultati che ti rendano davvero orgoglioso.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 65,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_009",
+    "text": "Buon compleanno! Che questo anno ti regali equilibrio tra impegno e benessere, con tanti successi passo dopo passo.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_010",
+    "text": "Buon compleanno! Ti auguro un percorso pieno di stima, riconoscimenti meritati e giornate di lavoro piu leggere.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 30,
+    "age_max": null,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 3
+  },
+  {
+    "id": "polite_011",
+    "text": "Buon compleanno! Che la tua costanza venga premiata con occasioni importanti e obiettivi centrati con serenita.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 60,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_012",
+    "text": "Buon compleanno! Ti auguro un anno professionale solido, umano e ricco di soddisfazioni durature.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 65,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_013",
+    "text": "Buon compleanno! Avere una persona come te accanto rende tutto piu semplice e piu bello: ti auguro un anno luminoso.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_014",
+    "text": "Buon compleanno! Ti auguro risate vere, amicizie sincere e giorni pieni di piccole gioie che restano.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_015",
+    "text": "Buon compleanno! Che questo anno ti porti energie nuove, belle sorprese e tutta la serenita che meriti.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "brother"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_016",
+    "text": "Buon compleanno! Sei una presenza preziosa: ti auguro momenti felici, sogni che si muovono e cuore leggero.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 16,
+    "age_max": 35,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_017",
+    "text": "Buon compleanno! Ti auguro giornate piene di affetto, traguardi personali e tanta pace interiore.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_018",
+    "text": "Buon compleanno! Che tu possa sentirti sempre circondato da persone che ti vogliono bene davvero.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_019",
+    "text": "Buon compleanno! Ti auguro un anno ricco di esperienze belle, incontri giusti e sorrisi spontanei.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "brother"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_020",
+    "text": "Buon compleanno! Grazie per la tua amicizia: ti auguro felicita stabile e nuovi ricordi da custodire.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 16,
+    "age_max": 35,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_021",
+    "text": "Buon compleanno! Che ogni mese di questo anno ti regali un motivo in piu per sentirti fiero di te.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_022",
+    "text": "Buon compleanno! Ti auguro leggerezza, entusiasmo e quel pizzico di fortuna che cambia le giornate.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_023",
+    "text": "Buon compleanno! Che la tua gentilezza ti ritorni indietro moltiplicata, oggi e nei mesi a venire.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "brother"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_024",
+    "text": "Buon compleanno! Ti auguro un anno pieno di calore umano, obiettivi raggiunti e tempo di qualita.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 16,
+    "age_max": 35,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_025",
+    "text": "Buon compleanno! In famiglia sei un punto fermo: ti auguro salute, serenita e tante soddisfazioni condivise.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "mom"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_026",
+    "text": "Buon compleanno! Che questa giornata porti gioia in casa e apra un anno pieno di pace e buone notizie.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "dad"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_027",
+    "text": "Buon compleanno! Ti auguro affetto sincero, giornate tranquille e sogni che trovano finalmente spazio.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": 12,
+    "age_max": 40,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_028",
+    "text": "Buon compleanno! Che il nuovo anno ti doni forza, equilibrio e tanti momenti felici con chi ami.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": 12,
+    "age_max": 40,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "brother"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_029",
+    "text": "Buon compleanno! Ti auguro curiosita viva, crescita serena e persone giuste accanto in ogni passo.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": 1,
+    "age_max": 21,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "child"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_030",
+    "text": "Buon compleanno! Che l amore della tua famiglia continui a sostenerti e a rendere speciale ogni giornata.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "mom"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_031",
+    "text": "Buon compleanno! Ti auguro un anno di salute, calma e belle occasioni da vivere insieme.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "dad"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_032",
+    "text": "Buon compleanno! Che tu possa sentirti sempre accolto, stimato e profondamente voluto bene.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": 12,
+    "age_max": 40,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_033",
+    "text": "Buon compleanno amore! Con te ogni giorno ha piu senso: ti auguro un anno dolce, intenso e pieno di progetti nostri.",
+    "tag_groups": [
+      "love"
+    ],
+    "age_min": 18,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "partner"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_034",
+    "text": "Buon compleanno amore mio! Ti auguro serenita, desideri che si avverano e tanti momenti da vivere mano nella mano.",
+    "tag_groups": [
+      "love"
+    ],
+    "age_min": 18,
+    "age_max": 55,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "partner"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_035",
+    "text": "Buon compleanno tesoro! Che questo anno ci porti nuovi inizi, risate complici e felicita che resta.",
+    "tag_groups": [
+      "love"
+    ],
+    "age_min": 18,
+    "age_max": 55,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "partner"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_036",
+    "text": "Buon compleanno amore! Ti auguro tutto cio che ti fa stare bene, oggi e in ogni giorno che verra.",
+    "tag_groups": [
+      "love"
+    ],
+    "age_min": 18,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "partner"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_037",
+    "text": "Buon compleanno al nostro piccolo amico! Coccole extra, giochi senza fine e una casa piena di affetto.",
+    "tag_groups": [
+      "pet"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "pet"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_038",
+    "text": "Buon compleanno alla tua compagna di viaggio! Che macini chilometri felici e ti porti sempre dove vuoi andare.",
+    "tag_groups": [
+      "car"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "car"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_039",
+    "text": "Buon compleanno! Ti auguro un anno ordinato, leggero e pieno di buone occasioni da cogliere al volo.",
+    "tag_groups": [
+      "others"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_040",
+    "text": "Buon compleanno! Che il nuovo anno ti porti chiarezza, energia e tanti motivi per sorridere con soddisfazione.",
+    "tag_groups": [
+      "others"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_041",
+    "text": "Buon compleanno! Ti auguro un anno di equilibrio, soddisfazioni costanti e serenita nelle scelte importanti.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_042",
+    "text": "Buon compleanno! Che il tuo lavoro continui a essere apprezzato e che arrivino nuove opportunita ben allineate ai tuoi valori.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 30,
+    "age_max": null,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 3
+  },
+  {
+    "id": "polite_043",
+    "text": "Buon compleanno! Ti auguro passi solidi, relazioni professionali sane e risultati che parlino con semplicita.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 60,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_044",
+    "text": "Buon compleanno! Che questo anno ti porti crescita concreta, tempi sostenibili e tanta fiducia nel tuo percorso.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 65,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_045",
+    "text": "Buon compleanno! Ti auguro giornate produttive ma leggere, con obiettivi chiari e belle conferme.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_046",
+    "text": "Buon compleanno! Che la tua competenza venga riconosciuta sempre di piu, insieme a una meritata serenita.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 30,
+    "age_max": null,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 3
+  },
+  {
+    "id": "polite_047",
+    "text": "Buon compleanno! Ti auguro nuovi progetti stimolanti, collaborazioni sincere e un ritmo che faccia bene.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 60,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_048",
+    "text": "Buon compleanno! Che ogni impegno trovi il suo risultato, senza perdere lo spazio per cio che conta davvero.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 65,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_049",
+    "text": "Buon compleanno! Ti auguro un anno ordinato, positivo e ricco di traguardi costruiti con calma.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_050",
+    "text": "Buon compleanno! Che la tua costanza continui a dare frutti belli, dentro e fuori dal lavoro.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 30,
+    "age_max": null,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 3
+  },
+  {
+    "id": "polite_051",
+    "text": "Buon compleanno! Ti auguro lucidita nelle decisioni, energia buona e occasioni all altezza delle tue capacita.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 60,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_052",
+    "text": "Buon compleanno! Che l anno nuovo ti regali progressi tangibili, relazioni stabili e soddisfazioni durature.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 65,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_053",
+    "text": "Buon compleanno! Ti auguro amicizie che fanno bene, parole giuste al momento giusto e tante giornate serene.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_054",
+    "text": "Buon compleanno! Che questo anno ti porti entusiasmo, piccole vittorie quotidiane e grandi sorrisi.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_055",
+    "text": "Buon compleanno! Ti auguro una felicita semplice ma piena, fatta di persone vere e momenti sinceri.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "brother"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_056",
+    "text": "Buon compleanno! Che la tua sensibilita continui a illuminare chi ti sta accanto.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 16,
+    "age_max": 35,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_057",
+    "text": "Buon compleanno! Ti auguro esperienze nuove, energia pulita e cuore leggero in ogni stagione.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_058",
+    "text": "Buon compleanno! Che ogni passo di quest anno sia accompagnato da affetto e buone notizie.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_059",
+    "text": "Buon compleanno! Ti auguro una rete di persone sincere e il coraggio di scegliere sempre cio che ti fa bene.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "brother"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_060",
+    "text": "Buon compleanno! Che la tua amicizia continui a essere un porto sicuro per chi ti vuole bene.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 16,
+    "age_max": 35,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_061",
+    "text": "Buon compleanno! Ti auguro mesi pieni di armonia, motivazione e tanti momenti da ricordare.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_062",
+    "text": "Buon compleanno! Che la tua gentilezza torni indietro moltiplicata in forme inaspettate e belle.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_063",
+    "text": "Buon compleanno! Ti auguro giornate chiare, sorrisi spontanei e sogni che trovano finalmente direzione.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "brother"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_064",
+    "text": "Buon compleanno! Che questo anno ti faccia sentire visto, stimato e profondamente apprezzato.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 16,
+    "age_max": 35,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_065",
+    "text": "Buon compleanno! Ti auguro una casa piena di affetto e un cuore tranquillo in ogni passaggio.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "mom"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_066",
+    "text": "Buon compleanno! Che in famiglia non manchino mai ascolto, vicinanza e momenti felici da condividere.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "dad"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_067",
+    "text": "Buon compleanno! Ti auguro salute, pace e la gioia delle cose vere, quelle che restano.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": 12,
+    "age_max": 40,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_068",
+    "text": "Buon compleanno! Che il nuovo anno porti unione, serenita e tanti piccoli giorni speciali.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": 12,
+    "age_max": 40,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "brother"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_069",
+    "text": "Buon compleanno! Ti auguro forza gentile, presenza delle persone care e desideri che maturano bene.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": 1,
+    "age_max": 21,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "child"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_070",
+    "text": "Buon compleanno! Che la tua famiglia continui a essere fonte di calore, supporto e sorrisi sinceri.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "mom"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_071",
+    "text": "Buon compleanno! Ti auguro settimane luminose e nuove abitudini che ti facciano stare davvero bene.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "dad"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_072",
+    "text": "Buon compleanno! Che ogni traguardo arrivi con serenita e con chi ami accanto.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": 12,
+    "age_max": 40,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_073",
+    "text": "Buon compleanno amore! Ti auguro un anno tenero e intenso, pieno di cura reciproca e progetti condivisi.",
+    "tag_groups": [
+      "love"
+    ],
+    "age_min": 18,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "partner"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_074",
+    "text": "Buon compleanno amore mio! Che la nostra complicita cresca ancora, con leggerezza e profondita.",
+    "tag_groups": [
+      "love"
+    ],
+    "age_min": 18,
+    "age_max": 55,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "partner"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_075",
+    "text": "Buon compleanno tesoro! Ti auguro giorni pieni di bellezza, abbracci lunghi e felicita autentica.",
+    "tag_groups": [
+      "love"
+    ],
+    "age_min": 18,
+    "age_max": 55,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "partner"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_076",
+    "text": "Buon compleanno amore! Che questo nuovo capitolo ci regali tempo di qualita e sogni realizzati insieme.",
+    "tag_groups": [
+      "love"
+    ],
+    "age_min": 18,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "partner"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "polite_077",
+    "text": "Buon compleanno al nostro pelosetto! Ti auguro coccole infinite, giochi divertenti e una giornata super.",
+    "tag_groups": [
+      "pet"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "pet"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_078",
+    "text": "Buon compleanno alla tua auto fidata! Che ogni viaggio sia sicuro, sereno e pieno di bella strada.",
+    "tag_groups": [
+      "car"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "car"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_079",
+    "text": "Buon compleanno! Ti auguro chiarezza mentale, energia stabile e tante occasioni colte al momento giusto.",
+    "tag_groups": [
+      "others"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "polite_080",
+    "text": "Buon compleanno! Che il nuovo anno sia pieno di equilibrio, direzione e motivi sinceri per festeggiare.",
+    "tag_groups": [
+      "others"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic"
+    ],
+    "weight": 1
+  }
+]

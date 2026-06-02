@@ -1,0 +1,1358 @@
+[
+  {
+    "id": "boomer_001",
+    "text": "Auguroni di buon compleanno! Testa alta e passo sicuro: ti aspetta un anno di lavoro fatto bene e soddisfazioni vere.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_002",
+    "text": "Buon compleanno! Alla vecchia scuola: serieta, parola data e risultati che parlano da soli.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 30,
+    "age_max": null,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 3
+  },
+  {
+    "id": "boomer_003",
+    "text": "Tantissimi auguri! Che il buon senso e l esperienza ti accompagnino in un anno pieno di traguardi.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 60,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_004",
+    "text": "Buon compleanno! Continua cosi: poche chiacchiere, molta sostanza, e vedrai quante belle cose arrivano.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 65,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_005",
+    "text": "Auguri di cuore! Ti meriti giornate produttive, colleghi affidabili e soddisfazioni concrete.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_006",
+    "text": "Buon compleanno! Che il tuo stile saldo e tranquillo porti ancora ordine e successi in squadra.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 30,
+    "age_max": null,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 3
+  },
+  {
+    "id": "boomer_007",
+    "text": "Tanti auguri! Lavoro fatto bene, schiena dritta e serenita: la ricetta che funziona sempre.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 60,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_008",
+    "text": "Buon compleanno! Che non ti manchino energia, rispetto e riconoscimenti meritati.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 65,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_009",
+    "text": "Auguroni! Un anno con obiettivi chiari, nervi saldi e tante cose fatte come si deve.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_010",
+    "text": "Buon compleanno! Stringi i denti quando serve e goditi i frutti: quest anno promette bene.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 30,
+    "age_max": null,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 3
+  },
+  {
+    "id": "boomer_011",
+    "text": "Tanti auguri! Che ogni impegno torni indietro con fiducia, stima e belle opportunita.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 60,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_012",
+    "text": "Buon compleanno! Avanti tutta: concretezza, equilibrio e soddisfazioni una dietro l altra.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 65,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_013",
+    "text": "Auguri campione! Amicizia vera, risate sincere e tavola piena: il resto viene da se.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_014",
+    "text": "Buon compleanno! Ti auguro giornate semplici ma belle, di quelle che restano nel cuore.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_015",
+    "text": "Tantissimi auguri! Che non manchino mai due cose: persone buone accanto e buonumore.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "brother"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_016",
+    "text": "Buon compleanno! Forza e coraggio, ma anche un bel brindisi fatto come si deve.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 16,
+    "age_max": 35,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_017",
+    "text": "Auguri di cuore! Continua a essere quello su cui si puo sempre contare.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_018",
+    "text": "Buon compleanno! Ti auguro pace, salute e amici veri: il patrimonio migliore.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_019",
+    "text": "Tanti auguri! Che questo anno ti porti soddisfazioni pulite e sorrisi senza filtri.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "brother"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_020",
+    "text": "Buon compleanno! Goditi la giornata, stappa qualcosa di buono e pensa alle cose belle.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 16,
+    "age_max": 35,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_021",
+    "text": "Auguroni! Un anno con meno pensieri inutili e piu momenti da ricordare.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_022",
+    "text": "Buon compleanno! Che la fortuna ti trovi pronto, con il sorriso e le maniche rimboccate.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_023",
+    "text": "Tanti auguri! Cuore grande, testa fredda e tanta strada buona davanti.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "brother"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_024",
+    "text": "Buon compleanno! Ti auguro energia, serenita e compagnia giusta nei momenti importanti.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 16,
+    "age_max": 35,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_025",
+    "text": "Auguri di buon compleanno! In famiglia conti tanto: salute e serenita prima di tutto.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "mom"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_026",
+    "text": "Buon compleanno! Casa piena di affetto, tavola allegra e un anno che gira per il verso giusto.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "dad"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_027",
+    "text": "Tanti auguri! Che tu abbia sempre vicino chi ti vuole bene sul serio.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": 12,
+    "age_max": 40,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_028",
+    "text": "Buon compleanno! Ti auguro forza tranquilla, giornate serene e tante buone notizie.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": 12,
+    "age_max": 40,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "brother"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_029",
+    "text": "Auguroni! Cresci bene, sogna in grande e tieni sempre i piedi per terra.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": 1,
+    "age_max": 21,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "child"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_030",
+    "text": "Buon compleanno! Che il calore di casa ti accompagni in ogni nuova sfida.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "mom"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_031",
+    "text": "Tanti auguri! Pace in famiglia, salute robusta e soddisfazioni da condividere.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "dad"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_032",
+    "text": "Buon compleanno! Ti auguro un anno semplice nel modo migliore: vero, pieno e sereno.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": 12,
+    "age_max": 40,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_033",
+    "text": "Buon compleanno amore! Con te sto bene sul serio: avanti insieme, con calma e cuore.",
+    "tag_groups": [
+      "love"
+    ],
+    "age_min": 18,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "partner"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_034",
+    "text": "Auguri amore mio! Ti meriti giorni dolci, carezze sincere e un futuro costruito a due.",
+    "tag_groups": [
+      "love"
+    ],
+    "age_min": 18,
+    "age_max": 55,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "partner"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_035",
+    "text": "Buon compleanno tesoro! Brindiamo a noi, alle cose vere e ai progetti fatti mano nella mano.",
+    "tag_groups": [
+      "love"
+    ],
+    "age_min": 18,
+    "age_max": 55,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "partner"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_036",
+    "text": "Tanti auguri amore! Che non ci manchino mai affetto, pazienza e voglia di sorriderci.",
+    "tag_groups": [
+      "love"
+    ],
+    "age_min": 18,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "partner"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_037",
+    "text": "Auguri al nostro pelosetto! Pappa buona, passeggiate lunghe e coccole a non finire.",
+    "tag_groups": [
+      "pet"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "pet"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_038",
+    "text": "Auguri alla tua quattro ruote! Motore in forma, strada libera e viaggi senza pensieri.",
+    "tag_groups": [
+      "car"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "car"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_039",
+    "text": "Buon compleanno! Ti auguro ordine nelle cose, chiarezza in testa e serenita nel cuore.",
+    "tag_groups": [
+      "others"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_040",
+    "text": "Tanti auguri! Un anno con passo costante, buoni incontri e soddisfazioni fatte bene.",
+    "tag_groups": [
+      "others"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_041",
+    "text": "Buon compleanno! Ti auguro un anno dritto e concreto, con soddisfazioni vere e poche complicazioni.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_042",
+    "text": "Tanti auguri! Che il tuo impegno venga ripagato con stima, fiducia e risultati puliti.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 30,
+    "age_max": null,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 3
+  },
+  {
+    "id": "boomer_043",
+    "text": "Buon compleanno! Avanti con calma e carattere: la sostanza vince sempre.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 60,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_044",
+    "text": "Auguri di cuore! Che questo anno ti porti serenita in testa e forza nelle decisioni.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 65,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_045",
+    "text": "Buon compleanno! Ti auguro giornate piene, ma senza caos: ordine, chiarezza e buone notizie.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_046",
+    "text": "Tanti auguri! Lavoro fatto bene, persone giuste accanto e soddisfazioni senza rumore.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 30,
+    "age_max": null,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 3
+  },
+  {
+    "id": "boomer_047",
+    "text": "Buon compleanno! Che la tua esperienza continui a fare la differenza, come sempre.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 60,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_048",
+    "text": "Auguroni! Ti meriti rispetto, tranquillita e traguardi costruiti passo dopo passo.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 65,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_049",
+    "text": "Buon compleanno! Che non manchino mai salute, carattere e un po di sana fortuna.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_050",
+    "text": "Tanti auguri! Testa lucida, cuore saldo e strada buona davanti.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 30,
+    "age_max": null,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 3
+  },
+  {
+    "id": "boomer_051",
+    "text": "Buon compleanno! Ti auguro riconoscimenti meritati e giornate che filano lisce.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 60,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "boss"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_052",
+    "text": "Auguri! Continua cosi: affidabile, concreto e sempre sul pezzo.",
+    "tag_groups": [
+      "work"
+    ],
+    "age_min": 25,
+    "age_max": 65,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "colleague"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_053",
+    "text": "Buon compleanno! Amici veri, tavola allegra e risate sincere: il meglio che ci sia.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_054",
+    "text": "Tanti auguri! Che ogni giorno abbia qualcosa di buono da portare a casa.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_055",
+    "text": "Buon compleanno! Ti auguro compagnia bella e pensieri leggeri.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "brother"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_056",
+    "text": "Auguroni! Una stretta di mano franca e un brindisi fatto bene valgono piu di tutto.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 16,
+    "age_max": 35,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_057",
+    "text": "Buon compleanno! Che tu abbia sempre vicino chi c e davvero quando conta.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_058",
+    "text": "Tanti auguri! Ti meriti pace, equilibrio e soddisfazioni che durano.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_059",
+    "text": "Buon compleanno! Goditi la giornata e tieni il sorriso: il resto si sistema.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "brother"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_060",
+    "text": "Auguri di cuore! Che questo anno sia generoso con te, in cose semplici ma grandi.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 16,
+    "age_max": 35,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_061",
+    "text": "Buon compleanno! Ti auguro meno fretta e piu momenti belli da gustare.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_062",
+    "text": "Tanti auguri! Che la vita ti restituisca tutto il bene che dai.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_063",
+    "text": "Buon compleanno! Forza tranquilla, amici fidati e fortuna dalla tua parte.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "brother"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_064",
+    "text": "Auguroni! Un anno onesto, sereno e pieno di piccoli successi quotidiani.",
+    "tag_groups": [
+      "friends"
+    ],
+    "age_min": 16,
+    "age_max": 35,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic",
+      "best_friend"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_065",
+    "text": "Buon compleanno! In famiglia conti tantissimo: ti auguro salute e armonia.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "mom"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_066",
+    "text": "Tanti auguri! Che casa tua resti un posto caldo, pieno di affetto e buonumore.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "dad"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_067",
+    "text": "Buon compleanno! Ti auguro pace domestica e tanti motivi per essere grato.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": 12,
+    "age_max": 40,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_068",
+    "text": "Auguri! Che la tua famiglia continui a essere una squadra unita e forte.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": 12,
+    "age_max": 40,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "brother"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_069",
+    "text": "Buon compleanno! Ti auguro giornate semplici e piene di senso.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": 1,
+    "age_max": 21,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "child"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_070",
+    "text": "Tanti auguri! Che non manchino mai abbracci sinceri e parole buone.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "mom"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_071",
+    "text": "Buon compleanno! Salute robusta, testa serena e cuore contento.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "dad"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_072",
+    "text": "Auguroni! Ti auguro un anno pieno di dignita, equilibrio e belle conferme.",
+    "tag_groups": [
+      "family"
+    ],
+    "age_min": 12,
+    "age_max": 40,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "sister"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_073",
+    "text": "Buon compleanno amore! Camminiamo insieme con calma, fiducia e tanto bene.",
+    "tag_groups": [
+      "love"
+    ],
+    "age_min": 18,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "partner"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_074",
+    "text": "Tanti auguri amore mio! Ti auguro dolcezza quotidiana e un futuro sempre piu nostro.",
+    "tag_groups": [
+      "love"
+    ],
+    "age_min": 18,
+    "age_max": 55,
+    "genders": [
+      "female"
+    ],
+    "title_hints": [
+      "generic",
+      "partner"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_075",
+    "text": "Buon compleanno tesoro! Brindiamo alle cose vere, a noi e a tutto quello che costruiremo.",
+    "tag_groups": [
+      "love"
+    ],
+    "age_min": 18,
+    "age_max": 55,
+    "genders": [
+      "male"
+    ],
+    "title_hints": [
+      "generic",
+      "partner"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_076",
+    "text": "Auguri amore! Che non ci manchino mai rispetto, ascolto e tenerezza.",
+    "tag_groups": [
+      "love"
+    ],
+    "age_min": 18,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "partner"
+    ],
+    "weight": 2
+  },
+  {
+    "id": "boomer_077",
+    "text": "Buon compleanno al nostro peloso! Crocchette top, coccole lunghe e passeggiate felici.",
+    "tag_groups": [
+      "pet"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "pet"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_078",
+    "text": "Auguri alla tua macchina! Che tenga bene la strada e ti porti lontano senza problemi.",
+    "tag_groups": [
+      "car"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic",
+      "car"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_079",
+    "text": "Buon compleanno! Ti auguro ordine nelle priorita e serenita nelle scelte.",
+    "tag_groups": [
+      "others"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "any"
+    ],
+    "title_hints": [
+      "generic"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "boomer_080",
+    "text": "Tanti auguri! Un anno regolare nel senso migliore: stabile, buono e pieno di soddisfazioni.",
+    "tag_groups": [
+      "others"
+    ],
+    "age_min": null,
+    "age_max": null,
+    "genders": [
+      "neutral"
+    ],
+    "title_hints": [
+      "generic"
+    ],
+    "weight": 1
+  }
+]

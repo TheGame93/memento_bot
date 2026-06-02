@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "script_glob": "debuggers/*/*.py",
+      "pattern": "PTBUserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message\\.",
+      "note": "Known PTB warning while conversation handlers are still configured with per_message=False."
+    },
+    {
+      "script_glob": "debuggers/*/*.py",
+      "pattern": "^\\s+add_alert_handler = ConversationHandler\\($",
+      "note": "Source snippet line paired with PTBUserWarning."
+    },
+    {
+      "script_glob": "debuggers/*/*.py",
+      "pattern": "^\\s+birthday_add_handler = ConversationHandler\\($",
+      "note": "Source snippet line paired with PTBUserWarning."
+    }
+  ]
+}
