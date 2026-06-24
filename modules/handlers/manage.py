@@ -177,14 +177,9 @@ async def handle_manage_callback(update: Update, context: ContextTypes.DEFAULT_T
         await handle_system_backup_export(update, context)
         return
 
-    if data == "mgmt_system_backup_list":
-        from modules.handlers.backup_manage import handle_system_backup_list
-        await handle_system_backup_list(update, context)
-        return
-
     if data == "mgmt_system_backup_restore":
-        from modules.handlers.backup_manage import handle_system_backup_list
-        await handle_system_backup_list(update, context)
+        from modules.handlers.backup_manage import handle_system_backup_restore_list
+        await handle_system_backup_restore_list(update, context)
         return
 
     if data == "mgmt_system_backup_restore_confirm":

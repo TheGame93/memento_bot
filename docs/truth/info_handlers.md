@@ -184,7 +184,7 @@ Fields per entry: `name | parent | inputs | output | description`
 - `handle_system_backup_shortcut` | `modules.handlers.backup_manage` | `update: Update`, `context: ContextTypes.DEFAULT_TYPE`, `alias_value: str` | — | Resolve numeric system-backup aliases to restore summary rendering.
 - `handle_system_backup_panel` | `modules.handlers.backup_manage` | `update: Update`, `context: ContextTypes.DEFAULT_TYPE` | — | Render developer-only system backup controls under /manage -> Backups.
 - `handle_system_backup_export` | `modules.handlers.backup_manage` | `update: Update`, `context: ContextTypes.DEFAULT_TYPE` | — | Build one system backup archive and render export metadata for developers.
-- `handle_system_backup_list` | `modules.handlers.backup_manage` | `update: Update`, `context: ContextTypes.DEFAULT_TYPE` | — | Render chunked oldest-first system backup list and store alias mapping.
+- `handle_system_backup_restore_list` | `modules.handlers.backup_manage` | `update: Update`, `context: ContextTypes.DEFAULT_TYPE` | — | Render the system-backup restore-selection list and store its alias mapping.
 - `handle_system_backup_restore_select` | `modules.handlers.backup_manage` | `update: Update`, `context: ContextTypes.DEFAULT_TYPE`, `archive_ref: str` | — | Render one system backup summary and guard-gated restore confirmation controls.
 - `handle_system_backup_restore_confirm` | `modules.handlers.backup_manage` | `update: Update`, `context: ContextTypes.DEFAULT_TYPE` | — | Apply selected system backup restore and render success/failure outcome.
 

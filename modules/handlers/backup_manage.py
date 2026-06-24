@@ -7,7 +7,9 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import ContextTypes
 
 from modules.backup_core.archive_preview import build_archive_preview_text
+from modules.backup_core.retention import retention_bucket_for_timestamp
 from modules.backup_core import system_backup
+from modules.backup_core.constants import LOCAL_BACKUP_HOUR, LOCAL_BACKUP_MINUTE
 from modules.backup_core.user_backup import (
     diff_archive_vs_current,
     inspect_archive,
@@ -52,6 +54,14 @@ def _fmt_size(size_bytes):
     return f"{raw / (1024 * 1024):.2f} MB"
 
 
+def _infer_system_backup_type(ts):
+    """Return 'scheduled' if ts matches the daily cron slot, otherwise 'manual'."""
+    scheduled_minute = (LOCAL_BACKUP_MINUTE + 5) % 60
+    if ts and ts.hour == LOCAL_BACKUP_HOUR and ts.minute == scheduled_minute:
+        return "scheduled"
+    return "manual"
+
+
 def _format_timestamp_for_actor(storage, actor_id, dt):
     """Format one server-naive timestamp into the actor timezone label."""
     if not isinstance(dt, datetime):
@@ -76,7 +86,6 @@ def _build_system_backup_panel_keyboard():
     """Build developer-only system backup action keyboard."""
     return InlineKeyboardMarkup([
         [InlineKeyboardButton("📦 Export System Backup", callback_data="mgmt_system_backup_export")],
-        [InlineKeyboardButton("📋 List System Backups", callback_data="mgmt_system_backup_list")],
         [InlineKeyboardButton("🔄 Restore System Backup", callback_data="mgmt_system_backup_restore")],
         [InlineKeyboardButton("⬅️ Back", callback_data="mgmt_backups")],
     ])
@@ -455,8 +464,8 @@ async def handle_system_backup_export(update: Update, context: ContextTypes.DEFA
     )
 
 
-async def handle_system_backup_list(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """Render chunked oldest-first system backup list and store alias mapping."""
+async def handle_system_backup_restore_list(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Render the system-backup restore-selection list and store its alias mapping."""
     query = update.callback_query
     if not query:
         return
@@ -482,7 +491,11 @@ async def handle_system_backup_list(update: Update, context: ContextTypes.DEFAUL
         alias = f"{idx:02d}"
         alias_map[alias] = str(idx - 1)
         created = _format_timestamp_for_actor(storage, actor_id, item.get("timestamp"))
-        lines.append(f"/{alias} {created} | {_fmt_size(item.get('size_bytes'))}")
+        origin_type = _infer_system_backup_type(item.get("timestamp"))
+        bucket = retention_bucket_for_timestamp(item.get("timestamp")) or "n/a"
+        lines.append(
+            f"/{alias} {created} | src:{origin_type} | {bucket} | {_fmt_size(item.get('size_bytes'))}"
+        )
 
     header = lines[0]
     archive_lines = lines[1:]

@@ -24,6 +24,9 @@ from .filter_menu import LIST_CONTEXT_KEY, _render_filter_label
 
 logger = logging.getLogger(__name__)
 
+_BDAY_UNTAGGED_FILTER_VALUE = ("__bday_untagged_filter_state__",)
+_BDAY_UNTAGGED_FILTER_LABEL = "🏷️ Untagged"
+
 _INVALID_MEDIA_BADREQUEST_MARKERS = (
     "wrong file identifier",
     "wrong remote file identifier",
@@ -134,6 +137,10 @@ def build_info_keyboard(alert_id, context, source="alerts", include_back=False, 
         tag_filter = context.user_data.get("birthday_current_filter", "ALL")
     else:
         tag_filter = context.user_data.get("current_filter", "ALL")
+    if tag_filter == _BDAY_UNTAGGED_FILTER_VALUE:
+        tag_filter = _BDAY_UNTAGGED_FILTER_LABEL
+    elif tag_filter != "ALL":
+        tag_filter = _render_filter_label(tag_filter)
     return build_detail_keyboard(
         alert or {"id": alert_id},
         source=normalized_source,

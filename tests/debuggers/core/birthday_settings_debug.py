@@ -100,6 +100,7 @@ def main():
             "row2_callbacks": callback_rows[1] == ["settings_birthday_evening_time_set", "settings_birthday_evening_time_reset"] if len(callback_rows) > 1 else False,
             "row3_callbacks_bulk": callback_rows[2] == ["settings_bday_bulk_export", "settings_bday_bulk_import"] if len(callback_rows) > 2 else False,
             "row4_callback_zodiac": callback_rows[3] == ["settings_bday_zodiac"] if len(callback_rows) > 3 else False,
+            "row4_label_zodiac": button_rows[3][0].text == "🔮 Zodiac" if len(button_rows) > 3 else False,
             "row5_callback_back": callback_rows[4] == ["settings_back"] if len(callback_rows) > 4 else False,
             "has_back": any("Back" in label for label in btn_labels),
         }
@@ -132,25 +133,39 @@ def main():
         zodiac_rows = zodiac_kb.inline_keyboard
         zodiac_callbacks = [[btn.callback_data for btn in row] for row in zodiac_rows]
         zodiac_labels = [btn.text for row in zodiac_rows for btn in row]
+        label_rows = [[btn.text for btn in row] for row in zodiac_rows]
         zodiac_checks = {
-            "has_zodiac_title": "Zodiaco" in zodiac_message,
-            "has_current_mode": "Disattivato" in zodiac_message,
+            "has_zodiac_title": "Zodiac Settings" in zodiac_message,
+            "has_current_mode": "Current mode:" in zodiac_message,
             "has_five_rows": len(zodiac_rows) == 5,
+            "row1_label_disabled": label_rows[0] == ["❌ Disabled"] if label_rows else False,
             "row1_none": zodiac_callbacks[0] == ["settings_bday_zodiac_none"] if zodiac_callbacks else False,
+            "row2_label_western": label_rows[1] == ["♈ Western"] if len(label_rows) > 1 else False,
             "row2_west": zodiac_callbacks[1] == ["settings_bday_zodiac_west"] if len(zodiac_callbacks) > 1 else False,
+            "row3_label_eastern": label_rows[2] == ["🐉 Eastern"] if len(label_rows) > 2 else False,
             "row3_east": zodiac_callbacks[2] == ["settings_bday_zodiac_east"] if len(zodiac_callbacks) > 2 else False,
+            "row4_label_both": label_rows[3] == ["✨ Both"] if len(label_rows) > 3 else False,
             "row4_both": zodiac_callbacks[3] == ["settings_bday_zodiac_both"] if len(zodiac_callbacks) > 3 else False,
+            "row5_label_back": label_rows[4] == ["⬅️ Back to Birthdays"] if len(label_rows) > 4 else False,
             "row5_back_bdays": zodiac_callbacks[4] == ["settings_bdays"] if len(zodiac_callbacks) > 4 else False,
+            "has_zodiac_settings_heading": "🔮 <b>Zodiac Settings</b>" in zodiac_message,
+            "has_disabled_mode_label": "Current mode: <b>❌ Disabled</b>" in zodiac_message,
+            "has_description_english": "If enabled, zodiac sign info is shown" in zodiac_message,
+            "has_eastern_note_english": "Eastern zodiac requires the birth year" in zodiac_message,
         }
         zodiac_message_both, _ = build_birthday_zodiac_status({"birthday_zodiac_mode": C.BIRTHDAY_ZODIAC_MODE_BOTH})
-        zodiac_checks["mode_both_shown"] = "Entrambi" in zodiac_message_both
+        zodiac_checks["mode_both_shown"] = "Both" in zodiac_message_both
         zodiac_message_none_prefs, _ = build_birthday_zodiac_status(None)
-        zodiac_checks["handles_none_prefs"] = "Disattivato" in zodiac_message_none_prefs
+        zodiac_checks["handles_none_prefs"] = "Disabled" in zodiac_message_none_prefs
         dbg.section(
             "zodiac_status",
             {
                 "labels": zodiac_labels,
+                "label_rows": label_rows,
                 "callbacks": zodiac_callbacks,
+                "message": zodiac_message,
+                "message_both": zodiac_message_both,
+                "message_none_prefs": zodiac_message_none_prefs,
                 "checks": zodiac_checks,
             },
         )

@@ -112,8 +112,8 @@ def _test_storage_summary_text():
         "has_total_user_log_line": "Total space (data/userlog.d):" in text,
         "has_total_backup_line": "Total space (backups/):" in text,
         "has_header": "User name - Data / Logs / Backups" in text,
-        "has_alpha_row": "@alpha - `" in text and " / " in text,
-        "has_beta_row": "@beta - `" in text and " / " in text,
+        "has_alpha_row": "@alpha - " in text and " / " in text,
+        "has_beta_row": "@beta - " in text and " / " in text,
     }
     print_section("storage_summary", {"text": text, "checks": checks})
     if not all(checks.values()):

@@ -174,7 +174,7 @@ def _check_payload_builder(storage):
         "has_total_backup_root_line": "Total space (backups/):" in text,
         "has_header_line": "User name - Data / Logs / Backups" in text,
         "rows_format_data_logs_backups": "@beta -" in text and " / " in text,
-        "rows_sorted_by_total_desc": idx_beta != -1 and idx_alpha != -1 and idx_beta < idx_alpha,
+        "rows_sorted_by_backups_desc": idx_alpha != -1 and idx_beta != -1 and idx_alpha < idx_beta,
         "rows_count": payload.get("rows_count") == 2,
         "total_data_root_bytes": payload.get("total_data_root_bytes") == 180,
         "total_system_log_root_bytes": payload.get("total_system_log_root_bytes") == 5,

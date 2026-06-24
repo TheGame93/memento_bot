@@ -211,13 +211,13 @@ def _check_zodiac_note_prepend(dbg):
     checks = {
         "note_case_no_exception": result_note["error"] is None,
         "note_case_sent_once": len(result_note["context"].bot.sent_messages) == 1,
-        "note_case_starts_with_note": note_text.startswith("(zodiac randomly picked"),
+        "note_case_starts_with_note": note_text.startswith("(zodiac randomly picked between eastern and wester"),
         "no_eastern_no_exception": result_no_eastern["error"] is None,
         "no_eastern_sent_once": len(result_no_eastern["context"].bot.sent_messages) == 1,
-        "no_eastern_no_note": not no_eastern_text.startswith("(zodiac randomly picked"),
+        "no_eastern_no_note": not no_eastern_text.startswith("(zodiac randomly picked between eastern and wester"),
         "explicit_mode_no_exception": result_explicit["error"] is None,
         "explicit_mode_sent_once": len(result_explicit["context"].bot.sent_messages) == 1,
-        "explicit_mode_no_note": "(zodiac randomly picked" not in explicit_text,
+        "explicit_mode_no_note": "(zodiac randomly picked between eastern and wester" not in explicit_text,
     }
 
     dbg.section(

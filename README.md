@@ -4,18 +4,35 @@
 
 **A self-hosted Telegram bot for scheduling recurring and one-time reminders**
 
+<table 
+<tr>
+<td>
+  <strong>memento</strong> <em>noun</em><br>
+  me·men·to · /məˈmen.tō/<br>
+  <strong>Definition:</strong> something kept as a reminder of a person, place, or event.<br><br>
+  <em>I kept the shell as a <strong>memento</strong> of my visit to the seashore.</em>
+</td>
+</tr>
+</table>
+
 [![Python](https://img.shields.io/badge/python-3.12%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![python-telegram-bot](https://img.shields.io/badge/python--telegram--bot-v22-2CA5E0?logo=telegram&logoColor=white)](https://python-telegram-bot.org/)
 [![Platform](https://img.shields.io/badge/platform-linux-FCC624?logo=linux&logoColor=black)](https://www.kernel.org/)
 [![APScheduler](https://img.shields.io/badge/APScheduler-v3-orange)](https://apscheduler.readthedocs.io/)
 
-[Features](#features) · [Quick Start](#quick-start) · [Configuration](#configuration) · [Usage](#usage) · [Developing the bot](#developing-the-bot)
+
+[Features](#features) · [Quick Start](#quick-start) · [Usage](#usage) · [Developing the bot](#developing-the-bot)
 
 </div>
 
 ---
 
 **Memento** is a self-hosted Telegram notification engine. Create alerts that fire on any schedule — daily, weekly, monthly, yearly, or just once — and get notified directly in Telegram with optional pre-alerts, attached photos, and custom tags.
+
+> **AI disclaimer**
+> This is a personal project I built mainly to learn how to code with AI assistance.
+> I used AI heavily throughout the development process, especially because I had no prior Python experience.
+> For me, AI was a tool that made this project possible.
 
 ## Features
 
@@ -98,23 +115,14 @@ cp .env.example .env
 # then open .env and fill in your values
 ```
 
-See [Configuration](#configuration) for all keys and how to get them.
+<details id="configuration">
+<summary><strong>Setup</strong> the .env file</summary>
 
-If you want details about local data storage, backups, and logging expectations, see [PRIVACY.md](PRIVACY.md).
-
-### 4. Start the bot
-
-```bash
-./startbot.sh
-```
-
----
-
-## Configuration
+<br>
 
 All configuration lives in `.env` in the project root. Use `.env.example` as your starting template.
 
-```env
+```python
 # ── Required ──────────────────────────────────────────────────────────────────
 TELEGRAM_BOT_TOKEN=your_bot_token_here       # from @BotFather
 TELEGRAM_USER_ID=your_telegram_user_id       # your numeric Telegram user ID
@@ -137,9 +145,11 @@ BOT_SMTP_SSL=0
 
 | Key | How to get it |
 |---|---|
-| `TELEGRAM_BOT_TOKEN` | Create a bot with [@BotFather](https://t.me/BotFather) and copy the token |
-| `TELEGRAM_USER_ID` | Send any message to [@userinfobot](https://t.me/userinfobot) — it replies with your numeric ID |
-| `BOT_SMTP_PASS` | For Gmail: [generate an App Password](https://support.google.com/accounts/answer/185833); your main password will not work |
+| `TELEGRAM_BOT_TOKEN` | Create a bot writing to the telegram bot [@BotFather](https://t.me/BotFather) and copy the token |
+| `TELEGRAM_USER_ID` | Send any message to telegram bot [@userinfobot](https://t.me/userinfobot) — it replies with your numeric ID |
+| `BOT_SMTP_PASS` | For Gmail: [generate an App Password](https://support.google.com/accounts/answer/185833); your main password will not work. Read [EMAIL_BACKUP_SETUP.md](EMAIL_BACKUP_SETUP.md) for further information |
+
+</details>
 
 ---
 
@@ -258,9 +268,9 @@ The bot keeps rolling local backups of your data automatically. Open `/settings`
 - `/settings` → **Backups** — export/import your backup and manage mail backup
 - `/manage` → **Backups** — server-side restore and elevated backup tools for admin/developer users
 
----
-
 ## Developing the bot
+
+Everything below is optional and meant to help if you want to explore or customize the bot further.
 
 ### Testing
 

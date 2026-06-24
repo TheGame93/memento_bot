@@ -58,6 +58,7 @@ Fields per entry: `name | parent | inputs | output | description`
 - `get_system_backup_dir` | `modules.backup_core.paths` | — | — | Return and ensure the system backup root directory.
 
 ## `modules/backup_core/retention.py`
+- `retention_bucket_for_timestamp` | `modules.backup_core.retention` | `ts`, `now` | `str | None` | Classify one backup timestamp using tier bucket boundaries.
 - `select_retention` | `modules.backup_core.retention` | `items`, `now`, `daily`, `weekly`, `monthly`, `yearly` | — | Select backups to keep based on tiered retention buckets.
 
 ## `modules/backup_core/sync_target.py`

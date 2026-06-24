@@ -87,21 +87,6 @@ def _archive_counts(alerts_data):
     }
 
 
-def _retention_bucket_for_timestamp(ts, now=None):
-    """Classify one backup timestamp using tier bucket boundaries."""
-    if not isinstance(ts, datetime):
-        return None
-    if now is None:
-        now = datetime.now()
-    if ts.date() == now.date():
-        return "daily"
-    if ts.isocalendar()[:2] == now.isocalendar()[:2]:
-        return "weekly"
-    if (ts.year, ts.month) == (now.year, now.month):
-        return "monthly"
-    return "yearly"
-
-
 def list_user_backups(user_id, folder: str) -> list[dict]:
     """List timestamped backup archives for one user/folder in oldest-first order."""
     folder_dir = get_user_backup_folder(user_id, folder)
@@ -346,7 +331,7 @@ def inspect_archive(archive_path: str, expected_user_id) -> dict:
                 result["source"] = includes.get("source")
 
             ts = _parse_timestamp(os.path.basename(archive_path))
-            result["retention_bucket"] = _retention_bucket_for_timestamp(ts)
+            result["retention_bucket"] = retention.retention_bucket_for_timestamp(ts)
             result["ok"] = True
             return result
     except Exception as exc:

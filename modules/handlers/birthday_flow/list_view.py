@@ -651,7 +651,7 @@ async def show_next_birthdays(update: Update, context: ContextTypes.DEFAULT_TYPE
                 msg_lines.append(f"╰─ 🎂 {date_str} ({when_str})")
             msg_lines.append("")
 
-    msg_lines.append("🔥🔥🔥🔥   TODAY   🔥🔥🔥🔥")
+    msg_lines.append("🔥🔥🔥🔥   TODAY   🔥🔥🔥🔥" if today_items else "━━━━━━    TODAY")
     if not today_items:
         msg_lines.append("no birthdays today")
         msg_lines.append("")

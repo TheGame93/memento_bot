@@ -92,10 +92,25 @@ def _build_birthday(alert_id, title, date_dt, birth_year=None, pre_alerts=None):
     }
 
 
+def _render_message(mainbot, show_next_birthdays, alerts):
+    """Render the next-birthdays message and return the captured context state."""
+    fake_storage = _FakeStorage(alerts)
+    runtime_snapshot = snapshot_mainbot_runtime(mainbot)
+    try:
+        ctx = _DummyContext()
+        seed_mainbot_runtime(mainbot, app=ctx, storage=fake_storage)
+        update = _DummyUpdate(user_id=1)
+        run_async(show_next_birthdays(update, ctx))
+    finally:
+        restore_mainbot_runtime(mainbot, runtime_snapshot)
+    return ctx
+
+
 def _run_checks(dbg, mainbot, show_next_birthdays, list_context_key, get_back_button):
     now = datetime.now()
     past = now - timedelta(days=3)
     future = now + timedelta(days=5)
+    future_far = now + timedelta(days=9)
     today_age = now.year - 1990
     past_age = past.year - 1985
     future_age = future.year - 2000
@@ -108,20 +123,17 @@ def _run_checks(dbg, mainbot, show_next_birthdays, list_context_key, get_back_bu
         _build_birthday("b_today_unknown", "Mystery", now, birth_year=None),
         _build_birthday("b_future", "Future", future, birth_year=2000, pre_alerts=["1d"]),
     ]
-    fake_storage = _FakeStorage(alerts)
-
-    runtime_snapshot = snapshot_mainbot_runtime(mainbot)
-    try:
-        ctx = _DummyContext()
-        seed_mainbot_runtime(mainbot, app=ctx, storage=fake_storage)
-        update = _DummyUpdate(user_id=1)
-        run_async(show_next_birthdays(update, ctx))
-    finally:
-        restore_mainbot_runtime(mainbot, runtime_snapshot)
-
+    ctx = _render_message(mainbot, show_next_birthdays, alerts)
     ctx_data = ctx.user_data.get(list_context_key, {})
     alias_map = ctx_data.get("alias_map", {}) if isinstance(ctx_data, dict) else {}
     message = ctx.bot.sent[-1]["text"] if ctx.bot.sent else ""
+
+    alerts_no_today = [
+        _build_birthday("b_past_only", "Past", past, birth_year=1985),
+        _build_birthday("b_future_only", "Future", future_far, birth_year=2000),
+    ]
+    ctx_no_today = _render_message(mainbot, show_next_birthdays, alerts_no_today)
+    message_no_today = ctx_no_today.bot.sent[-1]["text"] if ctx_no_today.bot.sent else ""
 
     context_for_back = _DummyContext()
     context_for_back.user_data["birthday_current_filter"] = "Family"
@@ -143,6 +155,7 @@ def _run_checks(dbg, mainbot, show_next_birthdays, list_context_key, get_back_bu
         "message_has_sections_last_today_next": (
             message.find("LAST 10 DAYS") < message.find("TODAY") < message.find("NEXT 30 DAYS")
         ),
+        "message_has_today_flame_header": "🔥🔥🔥🔥   TODAY   🔥🔥🔥🔥" in message,
         "message_has_alias_01_colon": "/01 : " in message,
         "message_has_today_flame_prefix": "🔥 /02 : " in message,
         "message_has_today_flame_pre_alert": f"🔥 ├─ 🔔 {today_pre}" in message,
@@ -153,14 +166,28 @@ def _run_checks(dbg, mainbot, show_next_birthdays, list_context_key, get_back_bu
         "message_has_turns_future": f"╰─ 🎂 turns {future_age} on {future_date} (in 5d)" in message,
         "back_uses_birthday_filter": back_text == "⬅️ Back (Family)",
     }
+    empty_today_checks = {
+        "empty_today_plain_header": "━━━━━━    TODAY" in message_no_today,
+        "empty_today_no_flame_header": "🔥🔥🔥🔥   TODAY   🔥🔥🔥🔥" not in message_no_today,
+        "empty_today_no_birthdays_line": "no birthdays today" in message_no_today,
+    }
     dbg.section("next_birthdays_shortcuts", {
         "checks": checks,
+        "empty_today_checks": empty_today_checks,
         "alias_map": alias_map,
         "message_head": message.splitlines()[:6],
+        "message_no_today_head": message_no_today.splitlines()[:8],
         "back_text": back_text,
     })
-    if not all(checks.values()):
-        dbg.problem("next_birthdays_shortcuts_failed", {"checks": checks})
+    if not all(checks.values()) or not all(empty_today_checks.values()):
+        dbg.problem(
+            "next_birthdays_shortcuts_failed",
+            {
+                "checks": checks,
+                "empty_today_checks": empty_today_checks,
+                "message_no_today": message_no_today,
+            },
+        )
 
 
 def _parse_cli_args(args):

@@ -160,7 +160,7 @@ async def _handle_zodiac_style(
         return
 
     if zodiac_mode == C.BIRTHDAY_ZODIAC_MODE_NONE and eastern_info is not None:
-        result = "(zodiac randomly picked — set a preference in /settings)\n\n" + result
+        result = "(zodiac randomly picked between eastern and wester — set a preference in /settings)\n\n" + result
 
     if use_western and use_eastern:
         zodiac_used = "both"

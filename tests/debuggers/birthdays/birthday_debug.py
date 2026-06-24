@@ -777,12 +777,19 @@ def main():
         info_noback_kb = build_info_keyboard(
             "b123", _DummyContext(), source="birthdays", include_back=False, alert=active_bday
         )
+        untagged_context = _DummyContext()
+        untagged_context.user_data["birthday_current_filter"] = ("__bday_untagged_filter_state__",)
+        info_untagged_kb = build_info_keyboard(
+            "b123", untagged_context, source="birthdays", include_back=True, alert=active_bday
+        )
         info_rows = [[btn.text for btn in row] for row in info_kb.inline_keyboard]
         info_inactive_rows = [[btn.text for btn in row] for row in info_inactive_kb.inline_keyboard]
         info_noback_rows = [[btn.text for btn in row] for row in info_noback_kb.inline_keyboard]
+        info_untagged_rows = [[btn.text for btn in row] for row in info_untagged_kb.inline_keyboard]
         info_callbacks = [[btn.callback_data for btn in row] for row in info_kb.inline_keyboard]
         info_inactive_callbacks = [[btn.callback_data for btn in row] for row in info_inactive_kb.inline_keyboard]
         info_noback_callbacks = [[btn.callback_data for btn in row] for row in info_noback_kb.inline_keyboard]
+        info_untagged_callbacks = [[btn.callback_data for btn in row] for row in info_untagged_kb.inline_keyboard]
         expected_rows = [
             [ACTION_LABEL_SNOOZE],
             [ACTION_LABEL_DELETE],
@@ -799,6 +806,12 @@ def main():
             [ACTION_LABEL_SNOOZE],
             [ACTION_LABEL_DELETE],
             ["✏️ Edit fields"],
+        ]
+        expected_untagged_rows = [
+            [ACTION_LABEL_SNOOZE],
+            [ACTION_LABEL_DELETE],
+            ["✏️ Edit fields"],
+            ["⬅️ Back (🏷️ Untagged)"],
         ]
         expected_callbacks = [
             ["manage_toggle_b123"],
@@ -817,6 +830,12 @@ def main():
             ["manage_del_b123"],
             ["manage_fulledit_b123"],
         ]
+        expected_untagged_callbacks = [
+            ["manage_toggle_b123"],
+            ["manage_del_b123"],
+            ["manage_fulledit_b123"],
+            ["manage_backtolist"],
+        ]
         legacy_markup = InlineKeyboardMarkup([[
             InlineKeyboardButton("Legacy edit", callback_data="manage_edittext_b123")
         ]])
@@ -827,13 +846,16 @@ def main():
             "info_rows_match": info_rows == expected_rows,
             "info_inactive_rows_match": info_inactive_rows == expected_inactive_rows,
             "info_noback_rows_match": info_noback_rows == expected_noback_rows,
+            "info_untagged_rows_match": info_untagged_rows == expected_untagged_rows,
             "info_callbacks_match": info_callbacks == expected_callbacks,
             "info_inactive_callbacks_match": info_inactive_callbacks == expected_inactive_callbacks,
             "info_noback_callbacks_match": info_noback_callbacks == expected_noback_callbacks,
+            "info_untagged_callbacks_match": info_untagged_callbacks == expected_untagged_callbacks,
             "detail_view_detects_new_prefix": _message_is_detail_view(modern_message),
             "detail_view_detects_legacy_prefix": _message_is_detail_view(legacy_message),
             "all_rows_single_button": all(
-                len(row) == 1 for row in info_rows + info_inactive_rows + info_noback_rows
+                len(row) == 1
+                for row in info_rows + info_inactive_rows + info_noback_rows + info_untagged_rows
             ),
         }
         dbg.section("birthday_manage_keyboard_labels", {
@@ -841,9 +863,11 @@ def main():
             "info_rows": info_rows,
             "info_inactive_rows": info_inactive_rows,
             "info_noback_rows": info_noback_rows,
+            "info_untagged_rows": info_untagged_rows,
             "info_callbacks": info_callbacks,
             "info_inactive_callbacks": info_inactive_callbacks,
             "info_noback_callbacks": info_noback_callbacks,
+            "info_untagged_callbacks": info_untagged_callbacks,
             "checks": keyboard_checks,
         })
         if not all(keyboard_checks.values()):
@@ -852,9 +876,11 @@ def main():
                 "info_rows": info_rows,
                 "info_inactive_rows": info_inactive_rows,
                 "info_noback_rows": info_noback_rows,
+                "info_untagged_rows": info_untagged_rows,
                 "info_callbacks": info_callbacks,
                 "info_inactive_callbacks": info_inactive_callbacks,
                 "info_noback_callbacks": info_noback_callbacks,
+                "info_untagged_callbacks": info_untagged_callbacks,
             })
 
         bday_cancel_cleanup = run_birthday_cancel_cleanup_checks(birthday_flow_mod)

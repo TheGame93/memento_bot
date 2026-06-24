@@ -49,6 +49,21 @@ def _pick_bucketed(items, bucket_fn, limit, newer_than, keep_idx):
     return oldest, len(buckets)
 
 
+def retention_bucket_for_timestamp(ts, now=None) -> str | None:
+    """Classify one backup timestamp using tier bucket boundaries."""
+    if not isinstance(ts, datetime):
+        return None
+    if now is None:
+        now = datetime.now()
+    if ts.date() == now.date():
+        return "daily"
+    if ts.isocalendar()[:2] == now.isocalendar()[:2]:
+        return "weekly"
+    if (ts.year, ts.month) == (now.year, now.month):
+        return "monthly"
+    return "yearly"
+
+
 def select_retention(items, now=None,
                      daily=RETENTION_DAILY,
                      weekly=RETENTION_WEEKLY,

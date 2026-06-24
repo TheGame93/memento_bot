@@ -48,7 +48,7 @@ def build_birthday_time_keyboard():
             InlineKeyboardButton("📤 Bulk Bday Export", callback_data="settings_bday_bulk_export"),
             InlineKeyboardButton("📥 Bulk Bday Import", callback_data="settings_bday_bulk_import"),
         ],
-        [InlineKeyboardButton("🔮 Zodiaco", callback_data="settings_bday_zodiac")],
+        [InlineKeyboardButton("🔮 Zodiac", callback_data="settings_bday_zodiac")],
         [InlineKeyboardButton("⬅️ Back", callback_data="settings_back")],
     ])
 
@@ -96,11 +96,11 @@ def build_birthday_bulk_import_prompt_keyboard():
 def build_birthday_zodiac_keyboard():
     """Build the birthday zodiac mode selection keyboard."""
     return InlineKeyboardMarkup([
-        [InlineKeyboardButton("Disattivato", callback_data="settings_bday_zodiac_none")],
-        [InlineKeyboardButton("Zodiaco Occidentale", callback_data="settings_bday_zodiac_west")],
-        [InlineKeyboardButton("Zodiaco Orientale", callback_data="settings_bday_zodiac_east")],
-        [InlineKeyboardButton("Entrambi", callback_data="settings_bday_zodiac_both")],
-        [InlineKeyboardButton("⬅️ Torna ai Compleanni", callback_data="settings_bdays")],
+        [InlineKeyboardButton("❌ Disabled", callback_data="settings_bday_zodiac_none")],
+        [InlineKeyboardButton("♈ Western", callback_data="settings_bday_zodiac_west")],
+        [InlineKeyboardButton("🐉 Eastern", callback_data="settings_bday_zodiac_east")],
+        [InlineKeyboardButton("✨ Both", callback_data="settings_bday_zodiac_both")],
+        [InlineKeyboardButton("⬅️ Back to Birthdays", callback_data="settings_bdays")],
     ])
 
 
@@ -108,18 +108,18 @@ def build_birthday_zodiac_status(prefs):
     """Build zodiac settings status text and keyboard for birthdays."""
     mode = (prefs or {}).get("birthday_zodiac_mode", C.BIRTHDAY_ZODIAC_MODE_NONE)
     mode_labels = {
-        C.BIRTHDAY_ZODIAC_MODE_NONE: "❌ Disattivato",
-        C.BIRTHDAY_ZODIAC_MODE_WESTERN: "♈ Occidentale",
-        C.BIRTHDAY_ZODIAC_MODE_EASTERN: "🐉 Orientale",
-        C.BIRTHDAY_ZODIAC_MODE_BOTH: "✨ Entrambi",
+        C.BIRTHDAY_ZODIAC_MODE_NONE: "❌ Disabled",
+        C.BIRTHDAY_ZODIAC_MODE_WESTERN: "♈ Western",
+        C.BIRTHDAY_ZODIAC_MODE_EASTERN: "🐉 Eastern",
+        C.BIRTHDAY_ZODIAC_MODE_BOTH: "✨ Both",
     }
-    current = mode_labels.get(mode, "❌ Disattivato")
+    current = mode_labels.get(mode, "❌ Disabled")
     message = (
-        "🔮 <b>Impostazioni Zodiaco</b>\n\n"
-        f"Modalità attuale: <b>{current}</b>\n\n"
-        "Se attivo, le info sul segno zodiacale vengono mostrate nei promemoria "
-        "e nei dettagli dei compleanni.\n"
-        "<i>Lo zodiaco orientale richiede l'anno di nascita.</i>"
+        "🔮 <b>Zodiac Settings</b>\n\n"
+        f"Current mode: <b>{current}</b>\n\n"
+        "If enabled, zodiac sign info is shown in birthday reminders "
+        "and birthday details.\n"
+        "<i>Eastern zodiac requires the birth year.</i>"
     )
     return message, build_birthday_zodiac_keyboard()
 

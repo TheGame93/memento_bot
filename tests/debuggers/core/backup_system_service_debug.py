@@ -2,6 +2,7 @@
 import asyncio
 import json
 import os
+import re
 import sys
 import tempfile
 import zipfile
@@ -433,9 +434,9 @@ def main():
                         {"path": "/tmp/sys_new.zip", "timestamp": datetime(2026, 2, 1, 10, 0, 0), "size_bytes": 222},
                     ]
                     backup_manage.system_backup.list_system_backups = lambda: list_items
-                    list_update = _FakeUpdate(actor_id=2, callback_data="mgmt_system_backup_list")
+                    list_update = _FakeUpdate(actor_id=2, callback_data="mgmt_system_backup_restore")
                     list_ctx = _FakeContext()
-                    asyncio.run(backup_manage.handle_system_backup_list(list_update, list_ctx))
+                    asyncio.run(backup_manage.handle_system_backup_restore_list(list_update, list_ctx))
                     list_edit_text = (
                         list_update.callback_query.edits[-1]["text"]
                         if list_update.callback_query.edits
@@ -446,6 +447,9 @@ def main():
                     list_checks = {
                         "ordered_oldest_first": "/01" in list_text and "/02" in list_text and list_text.find("/01") < list_text.find("/02"),
                         "source_alias_set": (list_ctx.user_data.get("LIST_CONTEXT_KEY") is None) or True,
+                        "row_format_has_origin_and_bucket": bool(
+                            re.search(r"src:manual \| (daily|weekly|monthly|yearly)", list_text)
+                        ),
                     }
                     # Ensure actual alias source is set on canonical LIST_CONTEXT_KEY key.
                     from modules.handlers.list_alerts import LIST_CONTEXT_KEY as _LCK

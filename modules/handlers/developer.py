@@ -158,7 +158,7 @@ def _build_storage_summary_payload(storage, entries, meta_map):
             "backups_bytes": parts["backups_bytes"],
             "total_bytes": parts["total_bytes"],
         })
-    rows.sort(key=lambda item: (-item["total_bytes"], str(item["label"]).lower()))
+    rows.sort(key=lambda item: (-item["backups_bytes"], str(item["label"]).lower()))
 
     lines = [
         "📊 **Storage Summary**",
@@ -189,9 +189,9 @@ def _build_storage_summary_payload(storage, entries, meta_map):
     for row in rows:
         lines.append(
             f"{row['label']} - "
-            f"`{get_size_format(row['data_bytes'])}` / "
-            f"`{get_size_format(row['logs_bytes'])}` / "
-            f"`{get_size_format(row['backups_bytes'])}`"
+            f"{get_size_format(row['data_bytes'])} / "
+            f"{get_size_format(row['logs_bytes'])} / "
+            f"{get_size_format(row['backups_bytes'])}"
         )
     return {
         "text": "\n".join(lines),
